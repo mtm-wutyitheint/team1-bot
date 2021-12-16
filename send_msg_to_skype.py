@@ -14,11 +14,6 @@ def post_group_msg():
 
     # plain-text message
     content = " 3:30 မှာ meeting လုပ်ကြမယ်နော်.."
-
-    # skype_obj = Skype('scm.wutyitheint@gmail.com', '1998scmwyt')
-    # skype_obj.chats
-    # skype_obj.chats.recent()
-    # print(skype_obj.chats.recent(), '----------')
    
     channel.sendMsg(SkypeMsg.mention_all + content, rich=True)
 
